@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
-
-interface HeroTextProps {
-  text: string;
-  delay?: number;
-}
+import type { HeroTextProps } from "../../types/hero/types";
 
 export const HeroText = ({ text, delay = 0.2 }: HeroTextProps) => (
   <motion.p

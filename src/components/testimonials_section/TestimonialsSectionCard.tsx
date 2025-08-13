@@ -1,7 +1,4 @@
-type TestimonialsSectionCardProps = {
-  text: string;
-  author: string;
-};
+import type { TestimonialsSectionCardProps } from "../../types/testimonials/types";
 
 export const TestimonialsSectionCard = ({
   text,

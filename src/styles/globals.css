@@ -16,3 +16,11 @@
 .text-dark {
   color: var(--text-dark);
 }
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--text-dark);
+}

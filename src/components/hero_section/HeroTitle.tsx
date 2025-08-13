@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-
-interface HeroTitleProps {
-  text: string;
-}
+import type { HeroTitleProps } from "../../types/hero/types";
 
 export const HeroTitle = ({ text }: HeroTitleProps) => (
   <motion.h1

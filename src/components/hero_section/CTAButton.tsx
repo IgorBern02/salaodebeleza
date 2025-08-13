@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-
-interface CTAButtonProps {
-  text: string;
-  href: string;
-  delay?: number;
-  icon?: string;
-}
+import type { CTAButtonProps } from "../../types/hero/types";
 
 export const CTAButton = ({
   text,
