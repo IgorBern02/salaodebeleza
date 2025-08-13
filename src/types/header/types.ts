@@ -1,4 +1,4 @@
-export type PropsNavList = {
+export type NavListProps = {
   href: string;
   text: string;
 };
