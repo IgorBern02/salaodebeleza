@@ -46,7 +46,7 @@ export const ServicesSection = () => {
     <section className="py-20 px-[5%] bg-[var(--white)]" id="services">
       <div className="max-w-[1200px] mx-auto">
         <h2 className="text-center text-[2.5rem] mb-12 text-[var(--text-dark)]">
-          Nossos
+          Nossos Serviços
         </h2>
         <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
           <ServicesCard services={services} />
