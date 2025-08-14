@@ -12,7 +12,7 @@ export const CTASection = () => {
         <p className="text-lg text-gray-500 mb-12">
           Clique no botão abaixo e fale diretamente conosco pelo WhatsApp
         </p>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+        <div className="flex flex-col items-center justify-center gap-6">
           <CTAButton />
           <ContactInfo />
         </div>

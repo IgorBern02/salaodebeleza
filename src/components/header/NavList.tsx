@@ -1,4 +1,4 @@
-import type { PropsNavList } from "../../types/header/types";
+import type { NavListProps } from "../../types/header/types";
 import "../../styles/globals.css";
 
 export const NavList = ({ href, text }: NavListProps) => {
