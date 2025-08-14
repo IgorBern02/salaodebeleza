@@ -10,40 +10,31 @@ Acesse o site hospedado:
 🚀 Tecnologias utilizadas
 
 React – Biblioteca JavaScript para construção de interfaces de usuário.
-
 Vite – Build tool moderna e rápida para desenvolvimento em React.
-
 Tailwind CSS – Framework utilitário para estilização rápida e responsiva.
-
 GitHub Pages – Hospedagem estática gratuita para projetos front-end.
 
 🧩 Funcionalidades
 
 Navegação suave entre as seções: Home, Sobre, Serviços e Contato.
-
 Layout responsivo adaptável a diferentes tamanhos de tela.
-
 Animações de transição ao rolar a página.
-
 Formulário de contato funcional.
 
 🔧 Como rodar o projeto localmente
 
-1. Clone o repositório:
-   
+1. Clone o repositório: 
 ```bash
 git clone https://github.com/IgorBern02/salaodebeleza.git
 cd salaodebeleza
 ```
 
 2. Instale as dependências:
-   
 ```bash
 npm install
 ```
 
 3. Inicie o servidor de desenvolvimento:
-   
 ```bash
 npm run dev
 ```
@@ -53,7 +44,6 @@ npm run dev
 5. 📦 Como fazer o deploy no GitHub Pages
 
 1. Faça o build do projeto:
-
 ```bash
 npm run build
 ```
@@ -63,14 +53,12 @@ npm run build
 npm install --save-dev gh-pages
 ```
 
-
 3. Adicione o script de deploy no package.json:
 ```bash
 "scripts": {
   "deploy": "gh-pages -d dist"
 }
 ```
-
 
 3. Execute o deploy:
 ```bash
